@@ -1,5 +1,8 @@
+import PropTypes from 'prop-types';
 import { IoLocationOutline } from "react-icons/io5";
+
 import css from './Profile.module.css';
+
 import { ProfileListItem } from './Profile_list_item/Profile_list_item';
 
 export const Profile = ({ user: { username, tag, location, avatar, stats } }) => {
@@ -17,4 +20,14 @@ export const Profile = ({ user: { username, tag, location, avatar, stats } }) =>
         </ul>        
     </div>
 
+}
+
+Profile.propTypes = {
+    user: PropTypes.shape({
+        username: PropTypes.string,
+        tag: PropTypes.string,
+        location: PropTypes.string,
+        avatar: PropTypes.string,
+        stats: PropTypes.object,
+    })
 }

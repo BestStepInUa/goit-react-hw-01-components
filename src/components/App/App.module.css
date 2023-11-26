@@ -1,0 +1,14 @@
+.task_wrapper:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 2px;
+  background-color: rgb(196, 196, 223);
+}
+
+.task_title {
+  text-align: center;
+}

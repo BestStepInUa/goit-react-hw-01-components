@@ -1,16 +1,16 @@
-.stats_list_item {
+.stats_item {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
 }
-.stats_list_item_title,
-.stats_list_item_value {
+.stats_title,
+.stats_value {
   margin: 0;
 }
-.stats_list_item_title {
+.stats_title {
   font-style: italic;
   font-weight: 500;
 }
-.stats_list_item_value {
+.stats_value {
   font-weight: bold;
 }
