@@ -8,14 +8,6 @@
   border-radius: 50%;
   overflow: hidden;
 }
-.stats_list,
-.stats_list_item {
+.stats_list {
   display: flex;
-}
-.stats_list_item {
-  flex-direction: column;
-}
-.stats_list_item_title {
-}
-.stats_list_item_value {
 }
