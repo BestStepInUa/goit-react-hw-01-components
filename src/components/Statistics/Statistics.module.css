@@ -1,0 +1,29 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+.title {
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.stat_list {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-style: italic;
+  font-weight: 500;
+}
+.percentage {
+  font-weight: bold;
+  text-transform: uppercase;
+}
