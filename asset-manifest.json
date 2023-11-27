@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "//beststepinua.github.io/goit-react-hw-01-components/static/css/main.3496f392.css",
-    "main.js": "//beststepinua.github.io/goit-react-hw-01-components/static/js/main.8da9ac2e.js",
-    "index.html": "//beststepinua.github.io/goit-react-hw-01-components/index.html",
-    "main.3496f392.css.map": "//beststepinua.github.io/goit-react-hw-01-components/static/css/main.3496f392.css.map",
-    "main.8da9ac2e.js.map": "//beststepinua.github.io/goit-react-hw-01-components/static/js/main.8da9ac2e.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.3496f392.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.8da9ac2e.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.3496f392.css.map": "/goit-react-hw-01-components/static/css/main.3496f392.css.map",
+    "main.8da9ac2e.js.map": "/goit-react-hw-01-components/static/js/main.8da9ac2e.js.map"
   },
   "entrypoints": [
     "static/css/main.3496f392.css",
