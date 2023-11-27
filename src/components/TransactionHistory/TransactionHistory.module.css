@@ -1,0 +1,19 @@
+.transaction_history {
+  table-layout: fixed;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  border: 3px solid green;
+  border-collapse: collapse;
+}
+.thead {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #3796b9;
+}
+tr,
+th,
+td {
+  height: 20px;
+  border: 1px solid black;
+}
