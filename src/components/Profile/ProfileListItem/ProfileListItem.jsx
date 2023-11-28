@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import css from './Profile_list_item.module.css';
+import css from './ProfileListItem.module.css';
 
 export const ProfileListItem = ({ stat }) => {
     return <li className={css.stats_item}>

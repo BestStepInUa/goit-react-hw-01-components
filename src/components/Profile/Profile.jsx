@@ -3,7 +3,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 import css from './Profile.module.css';
 
-import { ProfileListItem } from './Profile_list_item/Profile_list_item';
+import { ProfileListItem } from './ProfileListItem/ProfileListItem';
 
 export const Profile = ({ user: { username, tag, location, avatar, stats } }) => {
     const statsArr = Object.entries(stats)
